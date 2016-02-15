@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="mdl-card mdl-shadow--2dp">
+  <img src="images/me.jpg" width="200px" height="200px">
+  <h1>Jairo Gätjens <small>Costa Rica</small></h1>
+
+  <div class="skills">
+  	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      javascript
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-button--colored">
+      css
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      html
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent  mdl-button--colored">
+      nodejs
+    </button>
+  </div>
+
+  <p>
+  	<a target="_blank" href="https://www.linkedin.com/in/jgatjens?trk=hp-identity-photo#background-skills-container">See full skill list</a>
+  </p>
+
+  <p>I'm an experienced freelance frontend<br> developer based in the Costa Rica.</p>
+
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="mailto:jgatjens@gmail.com" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Hire me
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <!-- Right aligned menu below button -->
+    <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+      <i class="material-icons">more_vert</i>
+    </button>
+
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+      <li class="mdl-menu__item">
+      	<a target="_blank" href="https://twitter.com/jgatjens">
+      		{% include icon-twitter.svg %}
+      		<span>Twitter</span>
+      	</a>
+      </li>
+      <li class="mdl-menu__item">
+      	<a target="_blank" href="https://github.com/jgatjens">
+  	    	{% include icon-github.svg %}
+      		<span>Github</span>
+      	</a>
+      </li>
+      <li class="mdl-menu__item icon-linkedin">
+      	<a target="_blank" href="https://www.linkedin.com/in/jgatjens">
+	      	{% include icon-in.svg %}
+      		<span>Linkedin</span>
+      	</a>
+      </li>
+    </ul>
+  </div>
+</div>
