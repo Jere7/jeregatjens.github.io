@@ -71,6 +71,7 @@ body {
 
 		&:hover {
 			border: 1px solid $btn-color;
+			color: $btn-color;
 		}
 
 		&.active {
@@ -106,8 +107,9 @@ body {
 }
 
 .btn-hireme{
-	padding-bottom: 20px;
+	padding: 10px 0;
 	display: block;
+	font-weight: 800;
 	&:hover {
 		color: black;
 	}
