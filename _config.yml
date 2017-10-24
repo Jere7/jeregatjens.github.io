@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jairo Gätjens
-email: jgatjens@gmail.com
+title: Jeremias Gätjens
+email: 7gatjen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm an experienced freelance frontend developer based in the Costa Rica.
+  I'm a Junior freelance frontend developer based in the Costa Rica.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jgatjens.github.io/" # the base hostname & protocol for your site
-twitter_username: jgatjens
-github_username:  jgatjens
-linkedin_username:  jgatjens
+url: "https://github.com/Jere7/jeregatjens.github.io/" # the base hostname & protocol for your site
+twitter_username: jeregatjens
+github_username:  jeregatjens
+linkedin_username:  jeregatjens
 
 # Build settings
 markdown: kramdown
