@@ -1,6 +1,6 @@
-# jgatjens.com
+# jeremiasgatjens.com
 
-Jairo Gätjens Website
+Jeremias Gätjens Website
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ In order to work with the template, you will need to follow tools:
 
         $ \curl -sSL https://get.rvm.io | bash
 
-* Then update Ruby to the 2.2.0 or higer version 
+* Then update Ruby to the 2.2.0 or higer version
 
         $ rvm install 2.2.0
 
@@ -27,11 +27,11 @@ In order to work with the template, you will need to follow tools:
         $ rvm --default use 2.2.0
 
 * With this done, you have to install the following Gem:
-    
+
         gem install jekyll
-    
-    ...and you're done. 
-    
+
+    ...and you're done.
+
 ### How to run it
 
 To see your project running please run:
