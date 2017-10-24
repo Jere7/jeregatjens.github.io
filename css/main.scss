@@ -71,13 +71,13 @@ body {
 
 		&:hover {
 			border: 1px solid $btn-color;
-			color: $btn-color;
+			color: lightgreen;
 		}
 
 		&.active {
 			background-color: $btn-color;
 			border-color: $btn-color;
-			color: white;
+			color: lightgreen;
 
 		}
 	}
@@ -85,7 +85,7 @@ body {
 	p {
 		margin: 0;
 		padding: 15px 0 25px 0;
-		line-height: 22px;
+		line-height: 32px;
 	}
 
 	svg {
@@ -93,7 +93,7 @@ body {
 		margin: 0 15px;
 		color: #CDCFD4;
 		&:hover {
-			color: $btn-color;
+			color: red;
 		}
 	}
 }
