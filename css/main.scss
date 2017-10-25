@@ -72,13 +72,18 @@ body {
 		&:hover {
 			border: 1px solid $btn-color;
 			color: lightgreen;
+			background-color: black;
 		}
 
 		&.active {
 			background-color: $btn-color;
 			border-color: $btn-color;
 			color: lightgreen;
+			&:hover {
 
+				color: black;
+				background-color: lightgreen;
+			}
 		}
 	}
 
@@ -93,17 +98,28 @@ body {
 		margin: 0 15px;
 		color: #CDCFD4;
 		&:hover {
-			color: red;
+			color: lightcoral;
 		}
 	}
 }
+
+
+svg {
+	width: 30px; height: 30px;
+	margin: 0 15px;
+	color: #CDCFD4;
+	&:hover {
+		color: $btn-color;
+	}
+}
+
 
 .line {
 	margin: 80px auto 20px auto;
 	height: 1px;
 	display: block;
 	width: 80%;
-	background-color: $btn-color;
+	background-color: lime;
 }
 
 .btn-hireme{
@@ -111,6 +127,9 @@ body {
 	display: block;
 	font-weight: 800;
 	&:hover {
+		margin: 0 100px;
+		font-weight: 200;
+		background-color: lime;
 		color: black;
 	}
 }
